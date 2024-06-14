@@ -166,7 +166,7 @@ TOKEN_FILE = "resources/auths/auth_token.txt"
 )
 async def send(eve):
     key, name = (eve.data_match.group(1)).decode("UTF-8").split("_")
-    thumb = "https://graph.org/file/60408fea8439e6702674d.jpg"
+    thumb = "https://telegra.ph/file/3592a4e0853717322e818.jpg"
     await eve.answer("■ Sending ■")
     data = f"uh_{key}_"
     index = None
@@ -254,7 +254,7 @@ async def changes(okk):
     )
     cli = "\n\nKlik tombol di bawah untuk memperbarui!"
     if not match:
-        thumb = "https://graph.org/file/60408fea8439e6702674d.jpg"
+        thumb = "https://telegra.ph/file/3592a4e0853717322e818.jpg"
         try:
             if len(tl_chnglog) > 700:
                 tl_chnglog = f"{tl_chnglog[:700]}..."
@@ -267,7 +267,7 @@ async def changes(okk):
                 language="md",
             )
             return await okk.edit(
-                f"**• Naya Userbot •**{cli}",
+                f"**• Bee Userbot •**{cli}",
                 file=thumb,
                 buttons=button,
                 force_document=True,
