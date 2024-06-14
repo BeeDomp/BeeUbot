@@ -30,11 +30,11 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+piic = "https://telegra.ph/file/3592a4e0853717322e818.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/kynansupport"),
+        Button.url(get_string("bot_4"), "t.me/Top_Mutualan_Indonesia"),
     ]
 ]
 
@@ -52,15 +52,15 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ʙᴇᴇ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ Yoichi - {}
   ◈ Telethon - {}
 """
 
 in_alive = """
-<b> Naya-Userbot</b>
+<b> Bee-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
@@ -71,12 +71,12 @@ in_alive = """
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Hadir Bro** 😁",
+    "**Maaf ka habis nemenin anu** 🥺",
+    "**Maaf ka habis disuruh anu** 🥺🙏🏻",
+    "**Hadir Sayang** 😘",
+    "**Hadir Akuuuuhhh** ☺️",
+    "**Hadir brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
@@ -338,7 +338,7 @@ async def inline_alive(
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="↻ꝛɪᴢ",
+                        description="ʙᴇᴇ",
                         parse_mode="html",
                         buttons=buttons,
                     )
