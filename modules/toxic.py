@@ -16,7 +16,7 @@ from . import ayra_cmd
 
 @ayra_cmd(pattern="A$")
 async def _(event):
-    await event.eor("ANJING LU YA KETEMU GUA TAMPOL LUUU")
+    await event.eor("ADUHH MUKALU JELEK BANGET BEGO")
 
 
 @ayra_cmd(pattern="B$")
